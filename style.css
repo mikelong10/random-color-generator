@@ -1,0 +1,36 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+  
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  box-shadow: 0 0 4em 0.2em #ffffff;
+  background-color: #ffffff88;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+button {
+  font-size: 1.25em;
+  font-weight: 700;
+  padding: 10px 20px;
+  border: 3px solid black;
+  border-radius: 20px;
+  background: linear-gradient(45deg,#ccffcc, #ffafaf, #dfc4ff, #ffffc4);
+  transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+button:hover {
+  border-color: #fff3ef;
+  box-shadow: 0 0 2em #fff3ef;
+  transform: translateY(-0.05em);
+  cursor: pointer;
+}
