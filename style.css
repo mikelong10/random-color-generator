@@ -15,6 +15,7 @@ h1 {
   background-color: #ffffff88;
   padding: 10px 20px;
   border-radius: 20px;
+  cursor: pointer;
 }
 
 button {
